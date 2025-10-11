@@ -1,8 +1,8 @@
-namespace ModularMachineryStructureOptmizer;
+namespace ModularMachineryStructureOptimizer;
 
-public class Optmizer
+public class Optimizer
 {
-    public static IEnumerable<CompressedVoxel<T>> Optmize<T>(IEnumerable<Voxel<T>> voxels)
+    public static IEnumerable<CompressedVoxel<T>> Optimize<T>(IEnumerable<Voxel<T>> voxels)
         where T : notnull, IEquatable<T>, IComparable<T>
     {
         HashSet<Voxel<T>> uncoveredVoxels = [.. voxels];

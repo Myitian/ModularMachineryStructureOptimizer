@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Immutable;
 
-namespace ModularMachineryStructureOptmizer;
+namespace ModularMachineryStructureOptimizer;
 
 public readonly struct CompressedVoxel<T> where T : notnull, IEquatable<T>, IComparable<T>
 {

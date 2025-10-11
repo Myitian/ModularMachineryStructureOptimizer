@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36109.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMachineryStructureOptmizer", "ModularMachineryStructureOptmizer\ModularMachineryStructureOptmizer.csproj", "{FD2CC138-BC1B-4486-B002-B5B823DDFA1F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModularMachineryStructureOptimizer", "src\ModularMachineryStructureOptimizer.csproj", "{FD2CC138-BC1B-4486-B002-B5B823DDFA1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

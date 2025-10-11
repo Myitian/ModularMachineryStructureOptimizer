@@ -1,4 +1,4 @@
-namespace ModularMachineryStructureOptmizer;
+namespace ModularMachineryStructureOptimizer;
 
 public struct Voxel<T>(T x, T y, T z) : IEquatable<Voxel<T>>, IComparable<Voxel<T>> where T : notnull, IEquatable<T>, IComparable<T>
 {

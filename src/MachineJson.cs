@@ -1,8 +1,8 @@
-using ModularMachineryStructureOptmizer.JsonConverters;
+using ModularMachineryStructureOptimizer.JsonConverters;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 
-namespace ModularMachineryStructureOptmizer;
+namespace ModularMachineryStructureOptimizer;
 
 [JsonConverter(typeof(MachineJsonConverter))]
 public class Machine
