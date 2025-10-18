@@ -22,6 +22,12 @@ public class PartJsonConverter : JsonConverter<Machine.Part>
         {
             if (reader.TokenType == JsonTokenType.EndObject)
             {
+                if (part.X.Length == 0)
+                    part.X = [0];
+                if (part.Y.Length == 0)
+                    part.Y = [0];
+                if (part.Z.Length == 0)
+                    part.Z = [0];
                 if (!part.IsValidPart)
                     throw new JsonException("Invalid structure!");
                 return part;

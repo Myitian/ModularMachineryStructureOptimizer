@@ -65,7 +65,7 @@ public sealed class ArgParser
     }
     public bool TryGetEnum<TEnum>(string name, out TEnum value) where TEnum : struct, Enum
     {
-        if (TryGetString(name, out string? s) && Enum.TryParse(s, false, out value))
+        if (TryGetString(name, out string? s) && Enum.TryParse(s, true, out value))
             return true;
         value = default;
         return false;

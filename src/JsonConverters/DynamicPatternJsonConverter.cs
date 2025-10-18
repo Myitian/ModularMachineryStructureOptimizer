@@ -56,7 +56,7 @@ public class DynamicPatternJsonConverter : JsonConverter<Machine.DynamicPattern>
         }
         if (value.PartsEnd?.Count is > 0)
         {
-            writer.WritePropertyName("dynamic-patterns");
+            writer.WritePropertyName("parts-end");
             JsonSerializer.Serialize(writer, value.PartsEnd, options);
         }
         writer.WriteEndObject();
